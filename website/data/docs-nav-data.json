@@ -327,6 +327,14 @@
                 "title": "Collection Functions",
                 "routes": [
                   {
+                    "title": "alltrue",
+                    "path": "templates/hcl_templates/functions/collection/alltrue"
+                  },
+                  {
+                    "title": "anytrue",
+                    "path": "templates/hcl_templates/functions/collection/anytrue"
+                  },
+                  {
                     "title": "chunklist",
                     "path": "templates/hcl_templates/functions/collection/chunklist"
                   },
@@ -785,6 +793,10 @@
         "path": "provisioners/file"
       },
       {
+        "title": "HCP SBOM",
+        "path": "provisioners/hcp-sbom"
+      },
+      {
         "title": "PowerShell",
         "path": "provisioners/powershell"
       },
@@ -864,6 +876,10 @@
       {
         "title": "v1.11",
         "path": "release-notes/v1_11"
+      },
+      {
+        "title": "v1.12",
+        "path": "release-notes/v1_12"
       }
     ]
   },
@@ -873,6 +889,10 @@
       {
         "title": "Upgrade to v1.11",
         "path": "upgrade/v1_11"
+      },
+      {
+        "title": "Upgrade to v1.12",
+        "path": "upgrade/v1_12"
       }
     ]
   },
